@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Prescription : NSObject
 
 @property (nonatomic, strong) NSSet<Symptom*>* listOfSymptoms;
+@property (nonatomic, strong) Patient* patient;
 
 @end
 

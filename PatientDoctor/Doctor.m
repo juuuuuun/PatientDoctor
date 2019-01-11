@@ -36,6 +36,7 @@
 - (Prescription *)requestMedicationForPatient:(NSNumber *)patientNumber {
     if(self.listOfPatients[patientNumber] != nil) {
         Prescription* prescription = [[Prescription alloc] init];
+        prescription.patient = self.listOfPatients[patientNumber];
         prescription.listOfSymptoms = self.listOfPatients[patientNumber].listOfSymptoms;
         [self.allPrescriptions.prescriptionList addObject:prescription];
         return prescription;
