@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C8287BB621E6FDF400680FE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8287BB521E6FDF400680FE8 /* main.m */; };
+		C8287BBE21E6FE6700680FE8 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = C8287BBD21E6FE6700680FE8 /* Patient.m */; };
+		C8287BC121E6FE7100680FE8 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = C8287BC021E6FE7100680FE8 /* Doctor.m */; };
+		C8287BCA21E703A100680FE8 /* Symptom.m in Sources */ = {isa = PBXBuildFile; fileRef = C8287BC921E703A100680FE8 /* Symptom.m */; };
+		C8287BCD21E703B400680FE8 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C8287BCC21E703B400680FE8 /* Prescription.m */; };
+		C8287BF521E828AF00680FE8 /* PrescriptionList.m in Sources */ = {isa = PBXBuildFile; fileRef = C8287BF421E828AF00680FE8 /* PrescriptionList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		C8287BB221E6FDF400680FE8 /* PatientDoctor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PatientDoctor; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8287BB521E6FDF400680FE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8287BBC21E6FE6700680FE8 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		C8287BBD21E6FE6700680FE8 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		C8287BBF21E6FE7100680FE8 /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		C8287BC021E6FE7100680FE8 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		C8287BC821E703A100680FE8 /* Symptom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Symptom.h; sourceTree = "<group>"; };
+		C8287BC921E703A100680FE8 /* Symptom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Symptom.m; sourceTree = "<group>"; };
+		C8287BCB21E703B400680FE8 /* Prescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		C8287BCC21E703B400680FE8 /* Prescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
+		C8287BF321E828AF00680FE8 /* PrescriptionList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrescriptionList.h; sourceTree = "<group>"; };
+		C8287BF421E828AF00680FE8 /* PrescriptionList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrescriptionList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				C8287BB521E6FDF400680FE8 /* main.m */,
+				C8287BC821E703A100680FE8 /* Symptom.h */,
+				C8287BC921E703A100680FE8 /* Symptom.m */,
+				C8287BCB21E703B400680FE8 /* Prescription.h */,
+				C8287BCC21E703B400680FE8 /* Prescription.m */,
+				C8287BBC21E6FE6700680FE8 /* Patient.h */,
+				C8287BBD21E6FE6700680FE8 /* Patient.m */,
+				C8287BBF21E6FE7100680FE8 /* Doctor.h */,
+				C8287BC021E6FE7100680FE8 /* Doctor.m */,
+				C8287BF321E828AF00680FE8 /* PrescriptionList.h */,
+				C8287BF421E828AF00680FE8 /* PrescriptionList.m */,
 			);
 			path = PatientDoctor;
 			sourceTree = "<group>";
@@ -119,6 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8287BB621E6FDF400680FE8 /* main.m in Sources */,
+				C8287BCA21E703A100680FE8 /* Symptom.m in Sources */,
+				C8287BBE21E6FE6700680FE8 /* Patient.m in Sources */,
+				C8287BF521E828AF00680FE8 /* PrescriptionList.m in Sources */,
+				C8287BC121E6FE7100680FE8 /* Doctor.m in Sources */,
+				C8287BCD21E703B400680FE8 /* Prescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
